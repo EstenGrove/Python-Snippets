@@ -1,7 +1,7 @@
 # Using the ```open``` File Commnad
 
 ### Character Meaning
-| Char    |                Meaning                            |
+| Char    |               Meaning                             |
 |---------|---------------------------------------------------|
 | __'r'__ | open for reading(default)                         |
 | __'w'__ | open for writing, truncate the file first         |
