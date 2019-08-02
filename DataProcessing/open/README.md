@@ -11,3 +11,6 @@
 | __'t'__ | text mode (default)                               |
 | __'+'__ | open a disk file for updating (read/write)        |
 | __'U'__ | universal newline mode (deprecated)               |
+
+### Modes
+- The default mode is ```'rt'``` (open for reading text)
