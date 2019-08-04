@@ -15,9 +15,19 @@
 
 ##### Using Multiple Variables in a String
 ```python
-list = ["John", "Doe"]
-str = "Hello %s %s"
+# Old Method
+
+name = "John"
+age = 30  
+
+  print("Hello %s. You are %s years old." % (name, age))
   
-  print(str % list)
+# New Method
+
+name = "John"
+age = 30 
+  
+  print("Hello {}. You are {} years old.".format(name, age))
+
 
 ```
