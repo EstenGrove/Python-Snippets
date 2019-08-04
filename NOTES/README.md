@@ -1,4 +1,4 @@
-# Pythong Notes
+# Python Notes
 
 ### String Formatting
 ```pythong
@@ -11,4 +11,13 @@
 %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
 
 %x/%X - Integers in hex representation (lowercase/uppercase)
+```
+
+##### Using Multiple Variables in a String
+```python
+list = ["John", "Doe"]
+str = "Hello %s %s"
+  
+  print(str % list)
+
 ```
