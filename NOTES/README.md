@@ -33,14 +33,47 @@ age = 30
 ### Loops
 
 ```python
-# "range" Loops
+# "range" Loops  - Syntax: range(start, end, step)
+
 for x in range(10):
-  print(x)  # 0 1 2 3 4 5 6 7 8 9
+  print(x)  
+  
+  # 0 1 2 3 4 5 6 7 8 9
+  
+  
   
 # "for...in" Loops
+
 names = ["John", "Suzie", "Rachel"]
 
 for name in names:
-  print(name)  # John Suzie Rachel
+  print(name)  
+  
+  # John Suzie Rachel
+  
+  
+# "while" Loops
+
+set = [1, 2, 3, 4, 5, 6, 7]
+i = 0
+while i < len(set):
+  print(set[i])
+  i += 1  
+  
+  # 1 2 3 4 5 6 7
+  
+  
+# "while" w/ "break" Loops
+
+count = 0
+
+while True:
+  print(count)
+  count += 1
+  if count >= 10:
+    break
+    
+    # 0 1 2 3 4 5 6 7 8 9
+
 
 ```
