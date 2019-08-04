@@ -28,6 +28,19 @@ name = "John"
 age = 30 
   
   print("Hello {}. You are {} years old.".format(name, age))
+```
 
+### Loops
+
+```python
+# "range" Loops
+for x in range(10):
+  print(x)  # 0 1 2 3 4 5 6 7 8 9
+  
+# "for...in" Loops
+names = ["John", "Suzie", "Rachel"]
+
+for name in names:
+  print(name)  # John Suzie Rachel
 
 ```
