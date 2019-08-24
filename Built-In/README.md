@@ -26,3 +26,9 @@ import hello # 2nd usage
 import importlib
 import importlib.reload(hello) 
 ```
+
+----------
+
+### ```globals()``` and ```locals()```
+The *__globals__* and *__locals__* built-in functions are used for listing out or returning the names in the **global** and **local** namespace(s).
+- The "return type" of both "globals" and "locals" functions is called a "dictionary".
