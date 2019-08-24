@@ -1,6 +1,12 @@
 # Python-Snippets
 A collection of Python snippets, helpers, utilities and other code for quick reference and reuse.
 
+## SHE-BANG!
+The "she-bang!" should go at the top of every python script that should run in the command line.
+```python
+#!/usr/bin/python
+```
+
 
 ## Data Parsing & Processing: Tips
 NOTE: when working with files on different machines you *need* to be cognizant of the different line-endings that are used on each OS.
