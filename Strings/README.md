@@ -5,7 +5,7 @@ Special operators allow you to manipulate strings in specific ways.
 - Example Below: ```a``` equals "Hello" and ```b``` equals "World"
 
 |  Operator 	   |       Description 	        |     Example 	                         |
-|----------------|:----------------------:|:------------------------------------------:|
+|----------------|:--------------------------:|:---------------------------------------|
 |  + 	           |   Concat a string	        |  print(a + b) ='HelloWorld' 	         |
 |  * 	           |   Repeat a string	        |  print(a * a) = 'HelloHello'           |
 | []  	         |   Slice a string	          |  print(a[2]) =  'l'	                   |
